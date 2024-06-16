@@ -1,4 +1,6 @@
-<template>{{ testVar }} test component</template>
+<template>
+  <p class="text-purple-700">{{ testVar }} test component</p>
+</template>
 
 <script setup lang="ts">
 const { testVar } = useTestStore();
